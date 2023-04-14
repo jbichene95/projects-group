@@ -1,0 +1,24 @@
+[Static app deployment]
+write playbook for deploying:
+https://github.com/michowski/tetris-light.git
+
+on ubuntu servers on  azure and aws
+N/B the single playbook should deploy on both clouds
+(hint: use ansible conditionals , use ansible_env variable)
+
+[deploy app with ssl certificates]
+deploy flask app with ssl certificate
+https://github.com/preciousakpan/FlaskChess.git
+
+
+
+
+
+[django ecommerce  app deployment mysql database]
+deploy django app with mysql 
+https://github.com/justdjango/django-ecommerce.git
+
+write ansible playbook to deploy the app on azure , aws and gcp
+use single playbook to deploy on all the platforms (aws, azure and gcp)
+
+

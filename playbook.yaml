@@ -1,0 +1,12 @@
+---
+- name:  deploy static app
+  hosts: all
+  become: yes
+  
+  tasks:
+  - name: clone static
+    ansible.builtin.git:
+      repo: https://github.com/michowski/tetris-light.git
+      dest: /john
+      single_branch: yes
+      version: master
